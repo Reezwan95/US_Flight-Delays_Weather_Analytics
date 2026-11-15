@@ -1,0 +1,33 @@
+{
+ "rows": {
+  "train": 253355,
+  "test": 75166
+ },
+ "regression_minutes": {
+  "rf_mae": 19.17,
+  "rf_rmse": 31.89,
+  "baseline_median_mae": 16.8,
+  "baseline_median_rmse": 36.47
+ },
+ "classification_late15": {
+  "prevalence": 0.212,
+  "roc_auc": 0.735,
+  "pr_auc": 0.452
+ },
+ "importance": {
+  "sched_hour": 0.167,
+  "prev_leg_delay": 0.157,
+  "temp": 0.117,
+  "month": 0.077,
+  "dow": 0.07,
+  "precip": 0.063,
+  "wind_speed": 0.06,
+  "distance": 0.059,
+  "sched_same_hour": 0.059,
+  "visib": 0.056,
+  "carrier_code": 0.045,
+  "dest_code": 0.041,
+  "origin_code": 0.022,
+  "first_leg": 0.007
+ }
+}
